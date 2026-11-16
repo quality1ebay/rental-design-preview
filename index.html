@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SA Keys - design mockup, home page</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="mock-note">Design mockup, not the live site. <a href="property.html">See the property page mockup</a></div>
+
+<div class="top">
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="SA Keys home">
+      <svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><circle cx="11" cy="16" r="7" stroke="#fff" stroke-width="3"/><path d="M18 16h11M24 16v5M28 16v4" stroke="#F4B63F" stroke-width="3" stroke-linecap="round"/></svg>
+      SA Keys
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="#homes">Homes</a>
+      <a href="#areas">Neighborhoods</a>
+      <a href="#direct">Why book direct</a>
+      <a href="#">Things to do</a>
+      <a class="tel" href="tel:+18005707046">(800) 570-7046</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+    <img src="https://www.sakeys.com/wp-content/uploads/2020/10/9011KoenigREDO-0009-scaled.jpg" alt="Private pool and pergola at an SA Keys home in San Antonio">
+    <div class="wrap">
+      <h1>Whole houses in San Antonio, sized for the whole group.</h1>
+      <p class="lede">28 furnished houses and apartments near SeaWorld, Six Flags and Lackland AFB. Book with the host and skip the booking fees.</p>
+      <div class="proof">
+        <span><span class="star" aria-hidden="true">&#9733;</span> 4.5 from 1,000+ guest reviews on Airbnb</span>
+        <span>No booking fees</span>
+        <span>Keypad check-in from 3pm</span>
+      </div>
+    </div>
+</div>
+</div>
+
+<main>
+  <div class="search">
+    <div class="wrap">
+      <form action="#" onsubmit="return false">
+        <div class="field"><label for="in">Check in</label><input id="in" type="text" value="Nov 20, 2026"></div>
+        <div class="field"><label for="out">Check out</label><input id="out" type="text" value="Nov 23, 2026"></div>
+        <div class="field"><label for="g">Guests</label><select id="g"><option>2 guests</option><option>4 guests</option><option>6 guests</option><option selected>8 guests</option><option>10 guests</option><option>12 guests</option><option>16 guests</option></select></div>
+        <button class="btn" type="submit">Check availability</button>
+      </form>
+    </div>
+  </div>
+
+  <section id="direct">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Same homes you saw on Airbnb. Lower total here.</h2>
+        <p>You book with the people who own and look after the houses. There is no platform in the middle adding a service fee.</p>
+      </div>
+      <div class="direct">
+        <div><h3>No booking fees</h3><p>The nightly rate, cleaning and taxes. Nothing added at checkout.</p></div>
+        <div><h3>A host ten minutes away</h3><p>One local team runs every home, so help arrives the same day.</p></div>
+        <div><h3>Let yourself in</h3><p>Your door code arrives on the day you check in. No key handover.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="tint" id="homes">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Pick a home by what brings you to town</h2>
+      </div>
+      <div class="chips" role="group" aria-label="Filter homes by trip">
+        <button class="chip" aria-pressed="true" data-f="all">All homes</button>
+        <button class="chip" aria-pressed="false" data-f="parks">Near SeaWorld and Six Flags</button>
+        <button class="chip" aria-pressed="false" data-f="lackland">Near Lackland AFB</button>
+        <button class="chip" aria-pressed="false" data-f="medical">Medical Center</button>
+        <button class="chip" aria-pressed="false" data-f="apt">Apartments by the Botanical Garden</button>
+      </div>
+
+      <div class="homes is-all">
+        <a class="home" href="property.html" data-t="parks">
+          <div class="photo"><img loading="lazy" src="https://www.sakeys.com/wp-content/uploads/2019/09/7703GreenGlen-0004-1024x683.jpg" alt="Texas home with gravel drive and mature oaks"></div>
+          <div class="body">
+            <h3>Enchanting Texas Home with Pool</h3>
+            <p class="where">Hills and Dales, by Six Flags Fiesta Texas</p>
+            <p class="facts">4 bedrooms, sleeps 13, private pool</p>
+            <div class="keytag"><small>from</small><b>$180</b> <i>a night</i></div>
+          </div>
+        </a>
+        <a class="home" href="property.html" data-t="parks">
+          <div class="photo"><img loading="lazy" src="https://www.sakeys.com/wp-content/uploads/2020/08/7319-Wild-Eagle-0006-1024x683.jpg" alt="Lit pool at dusk behind a two-storey house"></div>
+          <div class="body">
+            <h3>Luxury House by Fiesta Texas</h3>
+            <p class="where">Hills and Dales, by Six Flags and SeaWorld</p>
+            <p class="facts">6 bedrooms, sleeps 17, private pool</p>
+            <div class="keytag"><small>from</small><b>$277</b> <i>a night</i></div>
+          </div>
+        </a>
+        <a class="home" href="property.html" data-t="parks lackland">
+          <div class="photo"><img loading="lazy" src="https://www.sakeys.com/wp-content/uploads/2020/10/9011KoenigREDO-0009-1024x684.jpg" alt="Pool with pergola and loungers"></div>
+          <div class="body">
+            <h3>Luxury Home with Game Room and Pool</h3>
+            <p class="where">Crown Meadows, by SeaWorld and Lackland</p>
+            <p class="facts">5 bedrooms, sleeps 16, private pool</p>
+            <div class="keytag"><small>from</small><b>$180</b> <i>a night</i></div>
+          </div>
+        </a>
+        <a class="home" href="property.html" data-t="lackland">
+          <div class="photo"><img loading="lazy" src="https://www.sakeys.com/wp-content/uploads/2022/04/7803Afterglow2-0066-1024x683.jpg" alt="Open living room with grey sectional and dining table"></div>
+          <div class="body">
+            <h3>Luxury Home with Game Room</h3>
+            <p class="where">Solana Ridge, by Lackland AFB</p>
+            <p class="facts">6 bedrooms, sleeps 19, game room</p>
+            <div class="keytag"><small>from</small><b>$180</b> <i>a night</i></div>
+          </div>
+        </a>
+        <a class="home" href="property.html" data-t="lackland parks">
+          <div class="photo"><img loading="lazy" src="https://www.sakeys.com/wp-content/uploads/2020/01/202Dirschell-0001-1024x683.jpg" alt="Living room with blue sofas and fireplace"></div>
+          <div class="body">
+            <h3>House with Game Room, Pool and Fire Pit</h3>
+            <p class="where">Heritage, by Lackland AFB and SeaWorld</p>
+            <p class="facts">4 bedrooms, sleeps 14, private pool</p>
+            <div class="keytag"><small>from</small><b>$175</b> <i>a night</i></div>
+          </div>
+        </a>
+        <a class="home" href="property.html" data-t="medical">
+          <div class="photo"><img loading="lazy" src="https://www.sakeys.com/wp-content/uploads/2022/09/AIRBNB_CHEDDER-0029-1024x683.jpg" alt="Above-ground pool with wooden deck"></div>
+          <div class="body">
+            <h3>Home at the Medical Center</h3>
+            <p class="where">Dreamhill Estates</p>
+            <p class="facts">3 bedrooms, sleeps 9, game room</p>
+            <div class="keytag"><small>from</small><b>$160</b> <i>a night</i></div>
+          </div>
+        </a>
+        <a class="home" href="property.html" data-t="other">
+          <div class="photo"><img loading="lazy" src="https://www.sakeys.com/wp-content/uploads/2022/05/14814RiverMill-0008-1024x684.jpg" alt="Pool with hammock and patio umbrella"></div>
+          <div class="body">
+            <h3>Green-belt Home with Pool and Hot Tub</h3>
+            <p class="where">Riverbend of Camino Real</p>
+            <p class="facts">3 bedrooms, sleeps 11, pool and hot tub</p>
+            <div class="keytag"><small>from</small><b>$180</b> <i>a night</i></div>
+          </div>
+        </a>
+        <a class="home" href="property.html" data-t="apt">
+          <div class="photo"><img loading="lazy" src="https://www.sakeys.com/wp-content/uploads/2019/12/219Andrews1-0010-1024x683.jpg" alt="Apartment living room with skylights"></div>
+          <div class="body">
+            <h3>Botanical Garden Apartment 1</h3>
+            <p class="where">Fort Sam Houston, Alamo Heights side</p>
+            <p class="facts">3 bedrooms, sleeps 9, skylights</p>
+            <div class="keytag"><small>from</small><b>$80</b> <i>a night</i></div>
+          </div>
+        </a>
+        <a class="home" href="property.html" data-t="apt">
+          <div class="photo"><img loading="lazy" src="https://www.sakeys.com/wp-content/uploads/2022/05/Unit3Andrews-0002-1024x683.jpg" alt="Apartment living room"></div>
+          <div class="body">
+            <h3>Botanical Garden Apartment 3</h3>
+            <p class="where">Fort Sam Houston, Alamo Heights side</p>
+            <p class="facts">3 bedrooms, sleeps 8</p>
+            <div class="keytag"><small>from</small><b>$80</b> <i>a night</i></div>
+          </div>
+        </a>
+      </div>
+
+      <div class="more">
+        <a class="btn navy" href="#">See all 28 homes</a>
+        <span>17 houses and 11 apartments</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap split">
+      <div>
+        <div class="rating-big">4.5<span aria-hidden="true">&#9733;</span></div>
+        <h2 style="font-size:32px;margin-top:14px">From more than 1,000 stays</h2>
+        <p style="color:var(--muted);margin-top:8px;max-width:42ch">Reviews are from guests who booked these same homes on Airbnb.</p>
+        <div class="placeholder" style="margin-top:20px;min-height:150px">Two or three real guest reviews go here, with first name, month and the home they stayed in.</div>
+      </div>
+      <div>
+        <div class="host">
+          <div class="placeholder">Host photo</div>
+          <div>
+            <h3>Your host lives here too</h3>
+            <p>A short personal note from the host goes here: who you are, how long you have hosted in San Antonio, and how guests reach you.</p>
+          </div>
+        </div>
+        <div class="quote" style="background:var(--sky)">
+          <p>Questions before you book? Call or text and a person answers.</p>
+          <footer><a class="link" href="tel:+18005707046">(800) 570-7046</a> &nbsp; <a class="link" href="mailto:info@sakeys.com">info@sakeys.com</a></footer>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="tint" id="areas">
+    <div class="wrap">
+      <div class="sec-head"><h2>Browse by neighborhood</h2></div>
+      <div class="areas">
+        <a href="#">Hills and Dales <span>near Six Flags</span></a>
+        <a href="#">Solana Ridge <span>near Lackland AFB</span></a>
+        <a href="#">Crown Meadows <span>near SeaWorld</span></a>
+        <a href="#">Heritage <span>near Lackland AFB</span></a>
+        <a href="#">Fort Sam Houston <span>apartments</span></a>
+        <a href="#">Walker Ranch <span>north side</span></a>
+        <a href="#">Dreamhill Estates <span>Medical Center</span></a>
+        <a href="#">Riverbend of Camino Real</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <div class="big">SA Keys</div>
+        <p style="margin-top:10px;max-width:30ch">Short-term rental houses and apartments in San Antonio, Texas.</p>
+      </div>
+      <div><h3>Stay</h3><a href="#">All homes</a><a href="#">Houses</a><a href="#">Apartments</a><a href="#">Things to do</a></div>
+      <div><h3>Guests</h3><a href="#">Tenants zone</a><a href="#">Terms and conditions</a><a href="#">Privacy policy</a></div>
+      <div><h3>Contact</h3><a href="tel:+18005707046">(800) 570-7046</a><a href="mailto:info@sakeys.com">info@sakeys.com</a><a href="#">Facebook</a></div>
+    </div>
+    <p class="legal">Copyright 2026 SA Keys Rentals.</p>
+  </div>
+</footer>
+
+<script>
+  // Trip filter: shows only the homes tagged for the chosen trip.
+  const chips = document.querySelectorAll('.chip');
+  const homes = document.querySelectorAll('.home');
+  chips.forEach(chip => chip.addEventListener('click', () => {
+    chips.forEach(c => c.setAttribute('aria-pressed', String(c === chip)));
+    const f = chip.dataset.f;
+    document.querySelector('.homes').classList.toggle('is-all', f === 'all');
+    homes.forEach(h => { h.hidden = f !== 'all' && !h.dataset.t.split(' ').includes(f); });
+  }));
+</script>
+</body>
+</html>
