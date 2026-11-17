@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Wild Eagle | SA Keys</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Gilda+Display&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body id="property">
+<div class="demo">Design mockup: real homes, photos and prices from Hostfully. Nothing here books.</div>
+
+<header class="nav solid">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="SA Keys home">
+      <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 29V15a11 11 0 0 1 22 0v14"/><path d="M11 29V16a5 5 0 0 1 10 0v13"/></svg>
+      SA Keys
+    </a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="index.html#homes">Homes</a>
+      <a href="index.html#areas">Neighborhoods</a>
+      <a href="index.html#direct">Why book direct</a>
+    </nav>
+    <a class="btn btn-dark" href="tel:+18005707046">Call the host</a>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="gallery" id="gallery"></div>
+
+  <div class="ptitle">
+    <div class="pbody">
+      <h1 id="p-title"></h1>
+      <div class="facts" id="p-facts"></div>
+      <div id="p-body"></div>
+    </div>
+
+    <aside>
+      <form class="book" id="book">
+        <div><span class="big p-price"></span> a night</div>
+        <div class="meta">Website price, before taxes and cleaning</div>
+        <div class="fields">
+          <label>Check in<input type="date"></label>
+          <label>Check out<input type="date"></label>
+          <label class="full">Guests
+            <select><option>2 guests</option><option>4 guests</option><option>6 guests</option><option>8 guests</option><option>10 guests</option><option>12 guests</option><option>16 guests</option></select>
+          </label>
+        </div>
+        <button class="btn btn-dark" type="submit">Check availability</button>
+        <p class="toast" id="book-msg" hidden></p>
+        <p class="note">You won't be charged yet</p>
+        <ul class="perks">
+          <li>No booking-site service fee</li>
+          <li>Talk to the host directly</li>
+          <li>Pets welcome</li>
+        </ul>
+      </form>
+    </aside>
+  </div>
+
+  <section style="padding:80px 0 100px">
+    <h2 style="margin-bottom:34px">More homes like this</h2>
+    <div class="grid" id="similar"></div>
+  </section>
+</main>
+
+<div class="mbook">
+  <div><span class="big p-price"></span> a night<div class="meta" style="margin:0">No booking-site fee</div></div>
+  <button class="btn btn-dark" type="button" id="mbook-btn">Check dates</button>
+</div>
+<p class="toast" id="book-msg-m" hidden style="position:fixed;left:16px;right:16px;bottom:92px;z-index:51;margin:0">On the real site this opens the live Hostfully calendar. The mockup does not book.</p>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Photos">
+  <div class="lb-top"><span id="lb-count"></span><button type="button" id="lb-close" aria-label="Close photos">&times;</button></div>
+  <div class="lb-stage">
+    <button class="lb-nav" type="button" id="lb-prev" aria-label="Previous photo">&#8249;</button>
+    <figure><img id="lb-img" alt=""><figcaption id="lb-cap"></figcaption></figure>
+    <button class="lb-nav" type="button" id="lb-next" aria-label="Next photo">&#8250;</button>
+  </div>
+</div>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="cols">
+      <div><h3>SA Keys</h3><p>Private homes and apartments in San Antonio, Texas, booked directly with a local host.</p></div>
+      <div><a href="tel:+18005707046">1 (800) 570-7046</a><a href="mailto:info@sakeys.com">info@sakeys.com</a></div>
+      <div><a href="index.html#homes">All homes</a><a href="index.html#areas">Neighborhoods</a></div>
+    </div>
+    <div class="fine">&copy; 2026 SA Keys, San Antonio, Texas</div>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

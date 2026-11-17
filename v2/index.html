@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>SA Keys | Private homes in San Antonio, booked direct</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Gilda+Display&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="demo">Design mockup: real homes, photos and prices from Hostfully. Nothing here books.</div>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="SA Keys home">
+      <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 29V15a11 11 0 0 1 22 0v14"/><path d="M11 29V16a5 5 0 0 1 10 0v13"/></svg>
+      SA Keys
+    </a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="#homes">Homes</a>
+      <a href="#areas">Neighborhoods</a>
+      <a href="#direct">Why book direct</a>
+      <a href="#reviews">Reviews</a>
+    </nav>
+    <a class="btn btn-light" href="tel:+18005707046">Call the host</a>
+  </div>
+</header>
+
+<section class="hero">
+  <img class="hero-img" src="https://img.hfcdn.net/eaec4365-1d0f-4d70-91e8-aff2efbdca87/photos/21419b88-cd58-46e5-b21b-6301f0cb7441" alt="Private pool under string lights at dusk, Wild Eagle home near Six Flags">
+  <div class="wrap hero-body">
+    <h1>A whole house in San Antonio, straight from the host.</h1>
+    <p class="sub">35 private homes with pools, hot tubs and game rooms, minutes from Six Flags, SeaWorld and the River Walk.</p>
+    <form class="search" id="search" role="search">
+      <label>Where
+        <select id="s-area">
+          <option value="">Anywhere in San Antonio</option>
+        </select>
+      </label>
+      <label>Check in<input type="date" id="s-in"></label>
+      <label>Check out<input type="date" id="s-out"></label>
+      <label>Guests
+        <select id="s-guests">
+          <option value="1">1+ guests</option><option value="4">4+</option><option value="8">8+</option><option value="10">10+</option><option value="12">12+</option><option value="16">16+</option>
+        </select>
+      </label>
+      <button class="btn btn-dark" type="submit">Find a home</button>
+    </form>
+    <div class="trust">
+      <span><span class="star">&#9733;</span><b id="avg">4.7</b> average guest rating</span>
+      <span><b>1,000+</b> stays hosted</span>
+      <span>Pets welcome in every home</span>
+      <span>A local host who answers the phone</span>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <h2>Guest favorites</h2>
+        <p class="lede">The homes with the highest guest ratings this year.</p>
+      </div>
+    </div>
+    <div class="arches" id="favs"></div>
+  </div>
+</section>
+
+<section class="block stone" id="homes">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <h2>Find your kind of stay</h2>
+        <p class="lede">Pick what matters to your group. Every home is the whole place, just for you.</p>
+      </div>
+    </div>
+    <div class="chips" id="chips" role="group" aria-label="Filter homes"></div>
+    <p class="count" id="count" aria-live="polite"></p>
+    <div class="grid" id="grid"></div>
+    <div class="more-wrap"><button class="btn btn-dark" id="more" type="button">Show all homes</button></div>
+  </div>
+</section>
+
+<section class="block dark" id="direct">
+  <div class="wrap direct-grid">
+    <div>
+      <h2>Same homes. Same reviews. No booking-site fee.</h2>
+      <p class="lede">You may know these homes from Airbnb. Booking here means you deal with the host directly, and the booking-site service fee is not added at checkout.</p>
+      <p style="margin-top:30px"><a class="btn btn-lantern" href="#homes">See the homes</a></p>
+    </div>
+    <table class="compare">
+      <thead><tr><th></th><th>Booking sites</th><th>SA Keys direct</th></tr></thead>
+      <tbody>
+        <tr><td>Service fee at checkout</td><td>Added on top</td><td class="yes">None</td></tr>
+        <tr><td>Who you talk to</td><td>Platform messages</td><td>The host, by phone or text</td></tr>
+        <tr><td>Questions before booking</td><td>Message and wait</td><td>Call and a person answers</td></tr>
+        <tr><td>The home</td><td>Same home</td><td>Same home, same standards</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="block" id="areas">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <h2>Where you'll stay</h2>
+        <p class="lede">Four parts of town, each good for a different kind of trip.</p>
+      </div>
+    </div>
+    <div class="hoods" id="hoods"></div>
+  </div>
+</section>
+
+<section class="block stone" id="reviews">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <h2>What guests say</h2>
+        <p class="lede">Reviews from guests who stayed in these same homes through Airbnb.</p>
+      </div>
+    </div>
+    <div class="reviews">
+      <figure class="quote" style="margin:0">
+        <blockquote>&ldquo;Lovely home!! Great for large families! House was exceptionally cleaned! Backyard patio wonderful and family enjoyed the pool. Kids also enjoyed the game room! We would definitely visit again!&rdquo;</blockquote>
+        <footer><span class="star">&#9733;&#9733;&#9733;&#9733;&#9733;</span><br>Stacy, Airbnb guest, July 2022</footer>
+      </figure>
+      <figure class="quote" style="margin:0">
+        <blockquote>&ldquo;Fun, family friendly home. Location was great and responsiveness was great with owner. Thanks for a great stay.&rdquo;</blockquote>
+        <footer><span class="star">&#9733;&#9733;&#9733;&#9733;&#9733;</span><br>Hannah, Airbnb guest, July 2022</footer>
+      </figure>
+      <div class="host">
+        <div class="mono" aria-hidden="true">D</div>
+        <h3>Your host: Daniel</h3>
+        <p>A local San Antonio host of 35 homes. Call before you book and you talk to the host, not a call center.</p>
+        <a class="btn btn-lantern" href="tel:+18005707046">Call 1 (800) 570-7046</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap faq">
+    <h2 style="margin-bottom:24px">Good to know</h2>
+    <details>
+      <summary>Can I cancel?</summary>
+      <p>Cancel at least 7 days before check-in for a full refund of all nights, minus a 5% processing fee. Each home shows its exact policy before you book, and travel insurance is recommended.</p>
+    </details>
+    <details>
+      <summary>Can we bring our dog?</summary>
+      <p>Yes. Every SA Keys home accepts pets. Let the host know before you arrive; a pet cleaning fee may apply.</p>
+    </details>
+    <details>
+      <summary>Are parties allowed?</summary>
+      <p>No parties or unapproved events. Small gatherings can be approved by the host before you book. Some homes have sound monitors to keep noise down for the neighbors.</p>
+    </details>
+    <details>
+      <summary>How do I get in?</summary>
+      <p>Contactless self check-in. The host sends the door code and directions before your stay.</p>
+    </details>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <h3>SA Keys</h3>
+        <p>Private homes and apartments in San Antonio, Texas, booked directly with a local host.</p>
+      </div>
+      <div>
+        <a href="tel:+18005707046">1 (800) 570-7046</a>
+        <a href="mailto:info@sakeys.com">info@sakeys.com</a>
+      </div>
+      <div>
+        <a href="#homes">All homes</a>
+        <a href="#areas">Neighborhoods</a>
+        <a href="#direct">Why book direct</a>
+      </div>
+    </div>
+    <div class="fine">&copy; 2026 SA Keys, San Antonio, Texas</div>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
